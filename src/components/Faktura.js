@@ -10,7 +10,7 @@ const Faktura = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("https://faktura-dashboard-1.onrender.com/api/faktura") // Ensure this URL is correct
+    fetch("http://127.0.0.1:5000/api/faktura") // Use the local API URL
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
