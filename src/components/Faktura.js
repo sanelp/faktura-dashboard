@@ -10,7 +10,7 @@ const Faktura = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("https://faktura-dashboard-1.onrender.com")
+    fetch("https://faktura-dashboard-1.onrender.com/api/faktura") // Ensure this URL is correct
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
