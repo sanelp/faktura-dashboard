@@ -57,12 +57,12 @@ Faktura Dashboard er et prosjekt for å hente ut og vise fakturadata ved hjelp a
    http://localhost:3000
    ```
 
-## Videre arbeid
+## Mulige Videre arbeid
 - Forbedre OCR-nøyaktigheten
 - Legge til flere fakturaformater
 - Utvide med databaselagring
 - Implementere autentisering for sikker tilgang
 
 ---
-Dette prosjektet er fortsatt under utvikling. Tilbakemeldinger og bidrag er velkomne!
+Dette prosjektet kan potensielt være i videreutvikling.
 
